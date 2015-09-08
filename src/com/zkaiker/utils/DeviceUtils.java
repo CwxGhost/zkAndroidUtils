@@ -1,4 +1,4 @@
-package com.zkaiker.zkinstructionspage;
+package com.zkaiker.utils;
 
 import java.util.List;
 import java.util.UUID;

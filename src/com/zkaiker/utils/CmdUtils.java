@@ -1,4 +1,4 @@
-package com.zkaiker.zkinstructionspage;
+package com.zkaiker.utils;
 
 import java.util.ArrayList;
 import java.util.Scanner;
