@@ -6,10 +6,11 @@
 
 ```java
 
-CmdUtils.doCmds("Example", "chmod 777 /dev/input/event1", new ProcessWatchListener() {
+	CmdUtils.doCmds("ls", "-l", new ProcessWatchListener() {
 
 			@Override
 			public void onReadStream(int watchMode, String message) {
+				//这里显示命令返回结果
 				System.out.println(message);
 			}
 
@@ -28,3 +29,4 @@ CmdUtils.doCmds("Example", "chmod 777 /dev/input/event1", new ProcessWatchListen
 			}
 		});
 ```
+

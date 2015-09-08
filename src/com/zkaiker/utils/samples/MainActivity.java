@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		CmdUtils.doCmds("Example", "chmod 777 /dev/input/event1", new ProcessWatchListener() {
+		CmdUtils.doCmds("ls", "-l", new ProcessWatchListener() {
 
 			@Override
 			public void onReadStream(int watchMode, String message) {
